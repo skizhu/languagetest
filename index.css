@@ -1,0 +1,76 @@
+body{
+	background-color: #282a36;
+	color: #f8f8f2;
+	font-family: 'Sora', sans-serif;
+
+}
+
+.title{
+	transition:0.5s;
+	text-align: center;
+	border: 2px solid #50fa7b;
+	margin-bottom: 10px;
+}
+
+.title:hover{
+	transition:0.5s;
+	border: 2px solid #50fa7b;
+	background-color: #ff79c6;
+}
+
+.langSection{
+	height:75px;
+	text-align: center;
+	transition:0.5s;
+	border: 2px solid #bd93f9;
+	background-color: #6272a4;
+}
+
+.options{
+	transition:0.5s;
+	text-align: center;
+	font-size: 20px;
+	width:100%;
+	display:grid;
+	grid-template-columns: repeat(3, 33.333%);
+}
+
+
+#optionOne{
+	cursor: pointer;
+	border:2px solid #bd93f9;
+	margin-left:10px;
+}
+#optionTwo{
+	cursor: pointer;
+	border:2px solid #bd93f9;
+	margin-left:10px;
+	margin-right: 10px;
+}
+#optionThree{
+	cursor: pointer;
+	border:2px solid #bd93f9;
+	margin-right: 10px;
+}
+#optionOne:hover{
+	transition:0.5s;
+	background-color: #ff79c6;
+	border:2px solid #6272a4;
+}
+#optionTwo:hover{
+	transition:0.5s;
+	background-color: #ff79c6;
+	border:2px solid #6272a4;
+}
+#optionThree:hover{
+	transition:0.5s;
+	background-color: #ff79c6;
+	border:2px solid #6272a4;
+}
+
+#correctAnswer{
+	border: 2px solid #ff79c6;
+	color:#50fa7b;
+	margin-left:10px;
+	margin-right: 10px;
+}
