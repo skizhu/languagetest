@@ -1,12 +1,33 @@
 var langQuestions = {
+
 	question1:{
-		question:"यह कौनसी भाषा है?",
+		question:"यह कौनसी भाषा है",
 		options:{
 		option1:"Russian",
 		option2:"Hindi",
 		option3:"Gujarati"
 		}
 	}
+
+	question2:{
+		question:"Que idioma é esse?",
+		options:{
+		option1:"Spanish",
+		option2:"Italian",
+		option3:"Portuguese"
+		}
+	}
+
+	question3:{
+		question:"који је ово језик",
+		options:{
+		option1:"Serbian",
+		option2:"Russian",
+		option3:"Polish"
+		}
+	}
+
+
 }
 
 
