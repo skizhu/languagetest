@@ -74,3 +74,22 @@ body{
 	margin-left:10px;
 	margin-right: 10px;
 }
+
+#yourScore{
+	text-align: center;
+}
+
+.scoreDiv{
+	background-color: #44475a;
+	border:2px solid #50fa7b;
+	text-align: center;
+	vertical-align: bottom;
+	width:300px;
+	margin-top:500px;
+	height:150px;
+	float:left;
+}
+
+#score{
+	color:#50fa7b;
+}
