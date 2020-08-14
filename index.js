@@ -67,7 +67,7 @@ function questEk(){
 function questWrong(){
 	document.getElementById("langText").innerHTML = "WRONG!";
 	document.getElementById("langText").id = "wrongId";
-
+};
 function questUma(){
 	console.log("Hindi: Done");
 	document.getElementById("score").innerHTML = "1/10";
