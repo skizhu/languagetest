@@ -69,7 +69,7 @@ function questUma(){
 	document.getElementById("optionTwo").innerHTML = langQuestions.question2.options.option2;
 	document.getElementById("optionThree").innerHTML = langQuestions.question2.options.option3;
 	
-	document.getElementById("optionTwo").removeEventListener();
+	document.getElementById("optionTwo").removeEventListener("click", questUma);
 	document.getElementById("optionThree").addEventListener("click", questJedan);
 };
 
@@ -82,7 +82,7 @@ function questJedan(){
 	document.getElementById("optionTwo").innerHTML = langQuestions.question3.options.option2;
 	document.getElementById("optionThree").innerHTML = langQuestions.question3.options.option3;
 	
-	document.getElementById("optionThree").removeEventListener();
+	document.getElementById("optionThree").removeEventListener("click", questJedan);
 	document.getElementById("optionOne").addEventListener("click", questYi);
 };
 
@@ -95,7 +95,7 @@ function questYi(){
 	document.getElementById("optionTwo").innerHTML = langQuestions.question4.options.option2;
 	document.getElementById("optionThree").innerHTML = langQuestions.question4.options.option3;
 	
-	document.getElementById("optionOne").removeEventListener();
+	document.getElementById("optionOne").removeEventListener("click", questYi);
 	document.getElementById("optionThree").addEventListener("click", questEin);
 };
 
@@ -108,7 +108,7 @@ function questEin(){
 	document.getElementById("optionTwo").innerHTML = langQuestions.question5.options.option2;
 	document.getElementById("optionThree").innerHTML = langQuestions.question5.options.option3;
 	
-	document.getElementById("optionOne").removeEventListener();
+	document.getElementById("optionOne").removeEventListener("click", questEin);
 	document.getElementById("optionOne").addEventListener("click", questEk);
 };
 
