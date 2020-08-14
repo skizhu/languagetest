@@ -1,4 +1,4 @@
-console.log("Begin Test");
+console.log("Begin Test(2)");
 
 var langQuestions = {
 
