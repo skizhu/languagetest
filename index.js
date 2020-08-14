@@ -48,10 +48,6 @@ var langQuestions = {
 
 }
 
-
-
-
-
 function questEk(){
 	document.getElementById("score").innerHTML = "0/10";
 	
