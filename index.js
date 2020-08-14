@@ -59,6 +59,7 @@ function questEk(){
 };
 
 function questUma(){
+	console.log("Hindi: Done");
 	document.getElementById("score").innerHTML = "1/10";
 
 	document.getElementById("langText").innerHTML = langQuestions.question2.question;
@@ -69,6 +70,7 @@ function questUma(){
 };
 
 function questJedan(){
+	console.log("Portuguese: Done");
 	document.getElementById("score").innerHTML = "2/10";
 
 	document.getElementById("langText").innerHTML = langQuestions.question3.question;
@@ -79,6 +81,7 @@ function questJedan(){
 };
 
 function questYi(){
+	console.log("Serbian: Done");
 	document.getElementById("score").innerHTML = "3/10";
 
 	document.getElementById("langText").innerHTML = langQuestions.question4.question;
@@ -89,6 +92,7 @@ function questYi(){
 };
 
 function questEin(){
+	console.log("Chinese: Done");
 	document.getElementById("score").innerHTML = "4/10";
 
 	document.getElementById("langText").innerHTML = langQuestions.question5.question;
