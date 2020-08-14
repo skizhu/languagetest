@@ -7,7 +7,7 @@ var langQuestions = {
 		option2:"Hindi",
 		option3:"Gujarati"
 		}
-	}
+	},
 
 	question2:{
 		question:"Que idioma é esse?",
@@ -16,7 +16,7 @@ var langQuestions = {
 		option2:"Italian",
 		option3:"Portuguese"
 		}
-	}
+	},
 
 	question3:{
 		question:"који је ово језик",
@@ -34,15 +34,35 @@ var langQuestions = {
 
 
 
-function langTextFill(){
+function questEk(){
 	document.getElementById("langText").innerHTML = langQuestions.question1.question;
 	document.getElementById("optionOne").innerHTML = langQuestions.question1.options.option1;
 	document.getElementById("optionTwo").innerHTML = langQuestions.question1.options.option2;
 	document.getElementById("optionThree").innerHTML = langQuestions.question1.options.option3;
-	document.getElementById("optionTwo").addEventListener("click", selectRight);
+	document.getElementById("optionTwo").addEventListener("click", questUma);
 }
 
-function selectRight(){
-	var correctAnswer = document.getElementById("optionTwo");
-	correctAnswer.id = "correctAnswer";
+function questUma(){
+	//var correctAnswer = document.getElementById("optionTwo");
+	//correctAnswer.id = "correctAnswer";
+	document.getElementById("score").innerHTML = "1/10";
+
+	document.getElementById("langText").innerHTML = langQuestions.question2.question;
+	document.getElementById("optionOne").innerHTML = langQuestions.question2.options.option1;
+	document.getElementById("optionTwo").innerHTML = langQuestions.question2.options.option2;
+	document.getElementById("optionThree").innerHTML = langQuestions.question2.options.option3;
+	document.getElementById("optionThree").addEventListener("click", questJedan);
 }
+
+function questJedan(){
+	//var correctAnswer = document.getElementById("optionTwo");
+	//correctAnswer.id = "correctAnswer";
+	document.getElementById("score").innerHTML = "2/10";
+
+	document.getElementById("langText").innerHTML = langQuestions.question3.question;
+	document.getElementById("optionOne").innerHTML = langQuestions.question3.options.option1;
+	document.getElementById("optionTwo").innerHTML = langQuestions.question3.options.option2;
+	document.getElementById("optionThree").innerHTML = langQuestions.question3.options.option3;
+	document.getElementById("optionOne").addEventListener("click", questEk);
+}
+
