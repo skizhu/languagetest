@@ -57,8 +57,16 @@ function questEk(){
 	document.getElementById("optionOne").innerHTML = langQuestions.question1.options.option1;
 	document.getElementById("optionTwo").innerHTML = langQuestions.question1.options.option2;
 	document.getElementById("optionThree").innerHTML = langQuestions.question1.options.option3;
+	
 	document.getElementById("optionTwo").addEventListener("click", questUma);
+	
+	document.getElementById("optionOne").addEventListener("click", questWrong);
+	document.getElementById("optionThree").addEventListener("click", questWrong);
 };
+
+function questWrong(){
+	document.getElementById("langText").innerHTML = "WRONG!";
+	document.getElementById("langText").id = "wrongId";
 
 function questUma(){
 	console.log("Hindi: Done");
