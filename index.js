@@ -82,7 +82,7 @@ function questJedan(){
 	document.getElementById("optionTwo").innerHTML = langQuestions.question3.options.option2;
 	document.getElementById("optionThree").innerHTML = langQuestions.question3.options.option3;
 	
-	document.getElementById("optionThree).removeEventListener();
+	document.getElementById("optionThree").removeEventListener();
 	document.getElementById("optionOne").addEventListener("click", questYi);
 };
 
