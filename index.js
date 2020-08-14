@@ -1,3 +1,5 @@
+console.log("Begin Test");
+
 var langQuestions = {
 
 	question1:{
